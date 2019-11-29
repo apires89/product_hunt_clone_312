@@ -1,0 +1,7 @@
+<% 5.times do |i| %>
+product_<%= i %>:
+  name: <%= Faker::Company.name %>
+  tagline: <%= Faker::Company.name %>
+<% end %>
+
+
